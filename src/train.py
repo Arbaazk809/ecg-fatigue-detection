@@ -6,6 +6,7 @@ for ECG-Based Fatigue Detection.
 """
 
 import joblib
+from pathlib import Path
 import pandas as pd
 
 from sklearn.ensemble import RandomForestClassifier
@@ -63,6 +64,8 @@ def save_model(model, model_path=MODEL_PATH):
     """
     Save the trained model.
     """
+
+    Path(model_path).parent.mkdir(parents=True, exist_ok=True)
 
     joblib.dump(model, model_path)
 

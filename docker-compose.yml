@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  ecg-fatigue-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: ecg-fatigue-container
+
+    ports:
+      - "8000:8000"
+
+    restart: unless-stopped
