@@ -25,8 +25,8 @@ Thumbs.db
 *.log
 
 # Models
-models/
-*.pkl
+#models/
+#*.pkl
 
 # Dataset (keep large raw data out of Git)
 data/raw/
