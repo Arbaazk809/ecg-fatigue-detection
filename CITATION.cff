@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "ECG-Based Fatigue Detection using Machine Learning"
+message: "If you use this project in your research or academic work, please cite it using the metadata below."
+type: software
+
+authors:
+  - family-names: "Khan"
+    given-names: "Arbaz"
+
+abstract: >
+  An end-to-end machine learning project for ECG-based fatigue detection
+  using Heart Rate Variability (HRV) features and a Random Forest classifier.
+  The project includes ECG preprocessing, HRV feature extraction, model
+  training, FastAPI deployment, and Docker containerization.
+
+keywords:
+  - ECG
+  - Fatigue Detection
+  - Machine Learning
+  - Random Forest
+  - Heart Rate Variability
+  - HRV
+  - FastAPI
+  - Docker
+  - Biomedical Signal Processing
+
+license: MIT
+
+repository-code: "https://github.com/ArbaazK809/ecg-fatigue-detection"
+
+version: "1.0.0"
+
+date-released: "2026-07-14"
