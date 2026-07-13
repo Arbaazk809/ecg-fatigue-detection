@@ -1,3 +1,5 @@
+🇩🇪 **German Version:** [README_DE.md](README_DE.md)
+
 # ECG-Based Fatigue Detection using Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
